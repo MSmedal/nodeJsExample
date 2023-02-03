@@ -29,7 +29,7 @@ const showError = async (res) => {
 
 const configure = () => {
     const config = new ServicesConfig();
-    config.secretApiKey = 'skapi_cert_MTu8BQCpqHAAInro-claA-DdI5-LPaRjUToSar8yxg';
+    config.secretApiKey = 'required'; // ex.: 'skapi_cert_MTu8BQCpqHAAInro-claA-DdI5-LPaRjUToSar8yxg'
     config.serviceUrl = 'https://cert.api2-c.heartlandportico.com';
 
     // The following variables will be provided to your during certification.
